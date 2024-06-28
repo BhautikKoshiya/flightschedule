@@ -105,10 +105,10 @@ function ProductCard({ product }) {
       <div className="product-details">
         <h3>{product.name}</h3>
         <p>{product.description}</p>
-        <p>Price: {product.price}</p>
-        <p>Quantity: {product.quantity}</p>
-        <p>Manufacturer: {product.manufacturer}</p>
-        <p>Offer: {product.offer}</p>
+        <p>Flight Time: {product.price}</p>
+        <p>Flight Number: {product.quantity}</p>
+        <p>Flight Status: {product.manufacturer}</p>
+        <p>Departure Gate: {product.offer}</p>
         <button onClick={() => setIsModalOpen(true)}>Edit</button>
         <button onClick={handleDelete}>Delete</button>
       </div>
